@@ -27,38 +27,53 @@
       <form action="">
         <div>
           <label for="">Ingrese su nombre</label><br />
-          <input type="text" name="" id="" />
+          <input type="text" name="" id="nombre" required />
         </div>
         <div class="mt-2">
           <label for="">Ingrese su edad</label><br />
-          <input type="number" name="" id="" />
+          <input type="number" name="" id="edad" required />
         </div>
         <div class="mt-2">
           <label for="">Ingrese su DNI</label><br />
-          <input type="number" name="" id="" />
+          <input type="number" name="" id="dni" required />
         </div>
         <div class="mt-2">
           <label for="">Ingrese su sexo</label><br />
-          <input type="text" name="" id="" />
+          <input type="text" name="" id="sexo" required />
         </div>
         <div class="mt-2">
           <label for="">Ingrese su peso</label><br />
-          <input type="number" name="" id="" />
+          <input type="number" name="" id="peso" required />
         </div>
         <div class="mt-2">
           <label for="">Ingrese su altura</label><br />
-          <input type="number" name="" id="" />
+          <input type="number" name="" id="altura" required />
         </div>
         <div class="mt-2">
           <label for="">Ingrese su año de nacimiento</label><br />
-          <input type="number" name="" id="" />
+          <input type="number" name="" id="anioDeNacimiento" required />
         </div>
         <div class="mt-4">
-          <button type="submit" class="btn btn-outline-success">
+          <button
+            type="submit"
+            class="btn btn-outline-success"
+            id="btnMostrarGeneracion"
+          >
             Mostrar generación
           </button>
-          <button type="submit" class="btn btn-outline-success">
+          <button
+            type="submit"
+            class="btn btn-outline-success"
+            id="btnMayorDeEdad"
+          >
             Mayor de edad
+          </button>
+          <button
+            type="submit"
+            class="btn btn-outline-success"
+            id="btnEliminarDatos"
+          >
+            Cargar otra persona
           </button>
         </div>
       </form>
