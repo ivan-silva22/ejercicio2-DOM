@@ -18,3 +18,17 @@ input{
     border: 0;
     outline: none;
 }
+
+@media screen and (max-width: 767px){
+    .containerBtn{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .containerBtn button{
+        margin-top: 10px;
+    }
+}
+
