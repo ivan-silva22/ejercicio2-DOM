@@ -15,7 +15,7 @@ class Persona {
     }
 }
 
-formulario.addEventListener('submit',datosDelUsuario);
+formulario.addEventListener('submit', datosDelUsuario);
 btnMostrarGeneracion.addEventListener('click', mostrarGeneracion);
 btnMayorDeEdad.addEventListener('click', mayorDeEdad);
 btnEliminarDatos.addEventListener('click', eliminarDatos);
