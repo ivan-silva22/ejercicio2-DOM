@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Esta es una web donde se cargan los datos personaes de una persona y se muestra a que generación pertenece la misma y si es mayor o menor de edad.
+Esta es una web donde se cargan los datos personales de una persona y se muestra a que generación pertenece y si es mayor o menor de edad.
 
 ## Requisitos
 
